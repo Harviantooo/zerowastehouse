@@ -1,0 +1,125 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #121212;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+/* Sidebar (Kiri) */
+.sidebar {
+    width: 15%;
+    background-color: #1DB954;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.sidebar ul li a:hover {
+    color: #000;
+}
+
+/* Main Content (Tengah) */
+.Main-section {
+    width: 100%;
+    background-color: #1E1E1E; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    width: 80%;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.search-bar {
+    width: 20%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+.essay {
+    margin-bottom: 20px;
+}
+
+.essay h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.essay p {
+    line-height: 1.6;
+}
+
+/* Right Section (Kanan) */
+.right-section {
+    width: 20%;
+    background-color: #1E1E1E;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.code-editor {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.code-editor h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #1DB954;
+    border-radius: 5px;
+}
+
+.code-editor textarea {
+    flex-grow: 1;
+    width: 100%;
+    padding: 10px;
+    background-color: #2D2D2D;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    resize: flex;
+    margin: 0
+
+}
